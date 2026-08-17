@@ -11,3 +11,31 @@
     <iframe src="dragon_ave_scene.html" allowfullscreen="true" height="1000" width="1000"></iframe>
 </body>
 </html>
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      #wrap {
+        width: 750px;
+        height: 1500px;
+        padding: 0;
+        overflow: hidden;
+      }
+      #scaled-frame {
+        width: 1000px;
+        height: 2000px;
+        border: 0;
+        zoom: 0.75;
+        transform: scale(0.75);
+        transform-origin: 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <iframe id="scaled-frame" src="dragon_ave_scene.html" allowfullscreen="true"></iframe>
+    </div>
+  </body>
+</html>
