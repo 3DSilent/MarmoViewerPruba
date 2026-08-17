@@ -1,9 +1,10 @@
 
     #marmosetUI div:has(> div[title="Made with Marmoset Toolbag"]) {
-      transform: scale(3);
-      transform-origin: top right;
+        transform: scale(3);
+        transform-origin: top right;
     }
     #marmosetUI div:has(> input[title="Full Screen"]) {
-      transform: scale(3);
-      transform-origin: top right;
+        margin-top:100px;
+        transform: scale(3);
+        transform-origin: top right;
     }
